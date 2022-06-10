@@ -1,0 +1,28 @@
+binary tree search için değerlerimiz: 7,5,1,8,3,6,0,9,4,2
+root değeri olarak 7 yi seçiyoruz
+listedeki sıraya göre gidiyoruz
+5 , 7 den küçük olduğu için rootumuzun solunda olmalı.
+1 rootun solunda olmalı ama 5 değerinden de küçük o halde 5 in solunda olmalı
+8 root değerinden büyük yani rootun sağında olmalı
+3 roottan küçük, 5 node undan da küçük ama 5 in solunda zaten 1 değeri var , bu yüzden 3 ü 5 in yerine koyuyoruz ,  bu durumda root olan 7 nin solunda
+3 değeri var . 3 node unun solunda 1 sağında ise 5 var .
+6 değeri roottan küçük 5 nodeundan büyük o halde 5 in sağında olmalı.
+0 ,1 nodeunun solunda olmalı.
+9 roottan büyük ,8 değerinden de büyük o halde 8 in sağında olmalı.
+4, 5 in solunda olmalı.
+2 ise 1 in sağında olmalı.
+ 
+ Binary Search Tree:            
+ 
+ 
+ 
+ 
+                                            
+                                                             7
+                                                             
+                                                  3                   8
+                                                  
+                                              1        5                   9
+                                              
+                                            0   2    4   6
+                                            
